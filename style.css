@@ -18,7 +18,7 @@
 
 /* CSS Grid Lines */
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
@@ -36,4 +36,81 @@
 .item1 {
   grid-column-start: 1;
   grid-column-end: 3;
+} */
+
+/* CSS GRID CONTAINER */
+
+/* grid-template-columns */
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+
+/* grid-template-rows */
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+
+/* Justify content property */
+
+/* .grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  
+  Make the grid smaller than the container
+  grid-template-columns: 50px 50px 50px;
+
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+} */
+
+/* The  align content property */
+
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
